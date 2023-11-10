@@ -1,0 +1,9 @@
+-
+  name: 获取token
+  request:
+    method: post
+    url: /admin/index/login
+    params:
+      "username": "15767953520"
+      "password": "5a03d9b85323e79d19fc770422ebe85d"
+  validate: 200

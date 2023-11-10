@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Nov 10 09:20:18 CST 2023","Fri Nov 10 09:20:21 CST 2023","2953","testcase","test_api","Test_Api","","","IGS设备列表",""
+"passed","Fri Nov 10 09:20:14 CST 2023","Fri Nov 10 09:20:14 CST 2023","146","testcase","test_api","Test_Api","","","获取token",""
+"passed","Fri Nov 10 09:20:18 CST 2023","Fri Nov 10 09:20:18 CST 2023","245","testcase","test_api","Test_Api","","","大数据查询",""
+"passed","Fri Nov 10 09:20:14 CST 2023","Fri Nov 10 09:20:18 CST 2023","3940","testcase","test_api","Test_Api","","","首页数据",""

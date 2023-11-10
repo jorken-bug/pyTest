@@ -1,0 +1,10 @@
+pytest~=7.4.3
+pytest-html             #生成html
+pytest-xdist            #多线程执行
+pytest-ordering         #控制用例的执行顺序
+pytest-rerunfailures    #失败用例重跑
+pytest-base-url         #基础路径
+allure-pytest           #生成allure报告
+requests~=2.31.0
+openpyxl~=3.1.2
+PyYAML~=6.0.1
