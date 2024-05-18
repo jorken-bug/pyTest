@@ -27,6 +27,7 @@ class Test_Api:
 
         assert res.status_code == caseinfo['validate']
 
+        #判断响应数据体
         with allure.step("验证响应数据"):
             json_data = res.json()
 
@@ -43,8 +44,8 @@ class Test_Api:
             allure.dynamic.description_html(description_html)
 
 
-    @allure.story("数据查询")
-    @pytest.mark.parametrize("test_data", read_excel('data/data.xlsx'))
+    @allure.story("测试")
+    @pytest.mark.parametrize("test_data", read_excel('data/data.xlsx')) # 获取文件的数据
     def test_data_cat(self, test_data, request):
         allure.dynamic.title(test_data['title'])
 
@@ -66,6 +67,7 @@ class Test_Api:
 
         assert res.status_code == test_data['validate']
 
+        # 判断响应数据
         with allure.step("验证响应数据"):
             json_data = res.json()
 
